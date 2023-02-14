@@ -4,18 +4,11 @@
 <head>
   <meta charset="utf-8">
   <title>Encriptador</title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
 
-  <meta name="theme-color" content="#fafafa">
 </head>
 
 <body>
@@ -27,20 +20,26 @@
   <main>
 
     <section>
-      <textarea class="text-area" cols="30" rows="10" placeholder="Ingrese el texto aqui"></textarea>
+      <textarea class="text-area" cols="40" rows="10" placeholder="Ingrese el texto aqui"></textarea>
       <div>
         <h6 class="informacion">Solo se permiten letras minusculas. Tampoco se permiten acentos.</h6>
       </div>
+
       <div class="botones">
         <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
         <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+
       </div>
     </section>
+
+
     <section>
+
       <textarea class="mensaje" cols="20" rows="10"placeholder="El resultado aparecerá aquí"></textarea>
       <div>
         <button class="copiar" onclick="copiar()">Copiar</button>
       </div>
+
     </section>
 
   </main>
